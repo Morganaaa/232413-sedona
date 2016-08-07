@@ -11,7 +11,7 @@
           <li><a href="#">Информация</a></li>
           <li><a href="#">Фото и видео</a></li>
           <li><a href="#">Карта штата</a></li>
-          <li><a href="#">Гостиницы</a></li>
+          <li><a href="hotels.html">Гостиницы</a></li>
         </ul>
       </nav>
       <div class="logo">
@@ -21,7 +21,7 @@
     <main>
       <section class="filter">
         <div class="filter-infrastructure">
-          <p>Инфраструктура:</p>
+          <h2>Инфраструктура:</h2>
           <ul>
             <li>
               <label>Бассейн
@@ -41,7 +41,7 @@
           </ul>
         </div>
         <div class="filter-housing">
-          <p>Тип жилья:</p>
+          <h2>Тип жилья:</h2>
           <ul>
             <li>
               <label>Гостиница
@@ -61,7 +61,7 @@
           </ul>
         </div>
         <div class="filter-price">
-          <p>Стоимость в сутки (р):</p>
+          <h2>Стоимость в сутки (р):</h2>
           <form action="#" method="get">
             <span>От 0 до 3000</span>
             <p><input type="range" name="price" min="0" max="3000" step="500"></p>
@@ -71,17 +71,31 @@
       </section>
       <section class="search-results">
         <div class="results-number">
-          <span>Найдено: 3</span>
+          <h4>Найдено: 3</h4>
         </div>
         <div class="sorting">
           <span>Сортировка</span>
-          <a class="sortting-price" href="#">По цене</a>
-          <a class="sorting-type" href="#">По типу</a>
-          <a class="sorting-rating" href="#">По рейтингу</a>
+          <ul>
+            <li>
+              <a class="sortting-price" href="#">По цене</a>
+            </li>
+            <li>
+              <a class="sorting-type" href="#">По типу</a>
+            </li>
+            <li>
+              <a class="sorting-rating" href="#">По рейтингу</a>
+            </li>
+          </ul>
         </div>
         <div class="search-btn">
-          <button type="button">&#9650;</button>
-          <button type="button">&#9660;</button>
+          <ul>
+            <li>
+              <a href="#">&#9650;</a>
+            </li>
+            <li>
+              <a href="#">&#9660;</a>
+            </li>
+          </ul>
         </div>
       </section>
       <article class="hotel">
@@ -89,8 +103,9 @@
           <img src="http://placehold.it/135x90" width="135" height="90" alt="hotel">
         </div>
         <div class="hotel-inf">
-          <h2>Amara Resort &amp; SPA</h2>
-          <p>Гостиница от 1500 р.</p>
+          <h1><a href="#">Amara Resort &amp; SPA</a></h1>
+          <span>Гостиница</span>
+          <span>от 1500 р.</span>
           <a class="hotel-inf-btn" href="#">Подробнее</a>
           <a class="hotel-reservations-btn" href="#">Забронировать</a>
         </div>
@@ -109,8 +124,9 @@
           <img src="http://placehold.it/135x90" width="135" height="90" alt="hotel">
         </div>
         <div class="hotel-inf">
-          <h2>Desert Quail Inn</h2>
-          <p>Мотель от 2000 р.</p>
+          <h1><a href="#">Desert Quail Inn</a></h1>
+          <span>Мотель</span>
+          <span>от 2000 р.</span>
           <a class="hotel-inf-btn" href="#">Подробнее</a>
           <a class="hotel-reservations-btn" href="#">Забронировать</a>
         </div>
@@ -127,8 +143,9 @@
           <img src="http://placehold.it/135x90" width="135" height="90" alt="hotel">
         </div>
         <div class="hotel-inf">
-          <h2>Villas At Poco Diablo</h2>
-          <p>Апартаменты от 4000 р.</p>
+          <h1><a href="#">Villas At Poco Diablo</a></h1>
+          <span>Апартаменты</span>
+          <span>от 4000 р.</span>
           <a class="hotel-inf-btn" href="#">Подробнее</a>
           <a class="hotel-reservations-btn" href="#">Забронировать</a>
         </div>
