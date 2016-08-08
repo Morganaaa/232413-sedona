@@ -20,54 +20,54 @@
     </header>
     <main>
       <section class="filter">
-        <div class="filter-infrastructure">
-          <h2>Инфраструктура:</h2>
-          <ul>
-            <li>
-              <label>Бассейн
-                <input type="checkbox" name="pool" checked>
-              </label>
-            </li>
-            <li>
-              <label>Парковка
-                <input type="checkbox" name="parking">
-              </label>
-            </li>
-            <li>
-              <label>WI-FI
-                <input type="checkbox" name="wi-fi">
-              </label>
-            </li>
-          </ul>
-        </div>
-        <div class="filter-housing">
-          <h2>Тип жилья:</h2>
-          <ul>
-            <li>
-              <label>Гостиница
-                <input type="checkbox" name="hotel" checked>
-              </label>
-            </li>
-            <li>
-              <label>Мотель
-                <input type="checkbox" name="motel" checked>
-              </label>
-            </li>
-            <li>
-              <label>Апартаменты
-                <input type="checkbox" name="apartment" checked>
-              </label>
-            </li>
-          </ul>
-        </div>
-        <div class="filter-price">
-          <h2>Стоимость в сутки (р):</h2>
-          <form action="#" method="get">
+        <form action="#" method="get">
+          <div class="filter-infrastructure">
+            <h2>Инфраструктура:</h2>
+              <ul>
+                <li>
+                  <label>Бассейн
+                    <input type="checkbox" name="pool" checked>
+                  </label>
+                </li>
+                <li>
+                  <label>Парковка
+                    <input type="checkbox" name="parking">
+                  </label>
+                </li>
+                <li>
+                  <label>WI-FI
+                    <input type="checkbox" name="wi-fi">
+                  </label>
+                </li>
+              </ul>
+          </div>
+          <div class="filter-housing">
+            <h2>Тип жилья:</h2>
+            <ul>
+              <li>
+                <label>Гостиница
+                  <input type="checkbox" name="hotel" checked>
+                </label>
+              </li>
+              <li>
+                <label>Мотель
+                  <input type="checkbox" name="motel" checked>
+                </label>
+              </li>
+              <li>
+                <label>Апартаменты
+                  <input type="checkbox" name="apartment" checked>
+                </label>
+             </li>
+            </ul>
+          </div>
+          <div class="filter-price">
+            <h2>Стоимость в сутки (р):</h2>
             <span>От 0 до 3000</span>
-            <p><input type="range" name="price" min="0" max="3000" step="500"></p>
+            <input type="range" name="price" min="0" max="3000" step="500">
             <button type="submit" name="price-btn">Показать</button>
-          </form>
-        </div>
+          </div>
+        </form>
       </section>
       <section class="search-results">
         <div class="results-number">
@@ -169,7 +169,7 @@
         <a class="social-btn social-btn-yt" href="#">Ютьюб</a>
       </div>
       <div class="footer-copyright">
-        <a href="#" class="copyright-btn"><span>Website by </span>HTML Academy</a>
+        <a href="#" class="copyright-btn"><span>Website by</span> HTML Academy</a>
       </div>
     </footer>
   </body>
